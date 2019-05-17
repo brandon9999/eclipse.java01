@@ -5,7 +5,7 @@ public class UrlTest{
     public static void main(String args[])  
                              throws MalformedURLException, IOException
     { 
-        URL url = new URL("http://www.naver.com");  
+        URL url = new URL("http://10.240.140.215/redmine");  
         URLConnection conn = url.openConnection(); 
         //출력 스트림 제어 
         conn.setDoOutput(true); 
