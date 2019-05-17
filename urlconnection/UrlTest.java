@@ -6,7 +6,7 @@ public class UrlTest{
                              throws MalformedURLException, IOException
     { 
     	//--------------------------------------------------------------
-    	// 프록시 설정
+    	// 프록시 설정 *****
     	//--------------------------------------------------------------
         System.setProperty("http.proxyHost", "swp.sec.samsung.net") ;
         System.setProperty("http.proxyPort", "8088");    	
