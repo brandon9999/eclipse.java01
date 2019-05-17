@@ -5,7 +5,13 @@ public class UrlTest{
     public static void main(String args[])  
                              throws MalformedURLException, IOException
     { 
-        URL url = new URL("http://10.240.140.215/redmine");  
+    	//--------------------------------------------------------------
+    	// 프록시 설정
+    	//--------------------------------------------------------------
+        System.setProperty("http.proxyHost", "swp.sec.samsung.net") ;
+        System.setProperty("http.proxyPort", "8088");    	
+    	
+        URL url = new URL("https://tims.tmax.co.kr/login.html");  
         URLConnection conn = url.openConnection(); 
         //출력 스트림 제어 
         conn.setDoOutput(true); 
@@ -13,6 +19,7 @@ public class UrlTest{
         PrintWriter out = new PrintWriter(os); 
         out.println("qt=love");  
         out.close(); 
+        
         //입력 스트림 제어 
         String temp; 
         InputStream is = conn.getInputStream(); 
