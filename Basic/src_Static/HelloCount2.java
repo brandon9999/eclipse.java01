@@ -28,6 +28,6 @@ public class HelloCount2
 		h2.sayHello();       
 		h2.sayHello();    
 		h2.sayHello();   
-      //전체는 5번인사....   
+      //전체는 5번인사...........  
 	}
 }
