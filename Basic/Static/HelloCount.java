@@ -1,33 +1,33 @@
-/** ½ºÅÂÆ½ ¸â¹ö º¯¼ö¸¦ Å×½ºÆ®ÇÏ´Â ¿¹Á¦ **/
+/** ìŠ¤íƒœí‹± ë©¤ë²„ ë³€ìˆ˜ë¥¼ í…ŒìŠ¤íŠ¸í•˜ëŠ” ì˜ˆì œ **/
 
 public class HelloCount 
 {    
-	//sCountÀÇ °ªÀº ´Ü ÇÑ¹ø¸¸ ÃÊ±âÈ­    
+	//sCountì˜ ê°’ì€ ë‹¨ í•œë²ˆë§Œ ì´ˆê¸°í™”    
 	private static int sCount = 0;     
-	//nCountÀÇ °ªÀº °´Ã¼¸¦ »ı¼ºÇÒ ¶§¸¶´Ù ÃÊ±âÈ­   
+	//nCountì˜ ê°’ì€ ê°ì²´ë¥¼ ìƒì„±í•  ë•Œë§ˆë‹¤ ì´ˆê¸°í™”   
 	private int nCount = 0;    
 	public void sayHello()
 	{       
 		sCount = sCount + 1;      
 		nCount = nCount + 1;    
-		System.out.println( "ÀüÃ¼:" + sCount + "¹øÂ° ÀÎ»ç¸¦ ÇÕ´Ï´Ù. Hello!");  
-		System.out.println( this + "´Â " + nCount + "¹øÂ° ÀÎ»ç¸¦ ÇÕ´Ï´Ù. Hi!");   
+		System.out.println( "ì „ì²´:" + sCount + "ë²ˆì§¸ ì¸ì‚¬ë¥¼ í•©ë‹ˆë‹¤. Hello!");  
+		System.out.println( this + "ëŠ” " + nCount + "ë²ˆì§¸ ì¸ì‚¬ë¥¼ í•©ë‹ˆë‹¤. Hi!");   
 	}   
 	
 	public static void main(String[] args) 
 	{        
 		HelloCount h1 = new HelloCount();    
 		HelloCount h2 = new HelloCount();       
-		//h1Àº 2¹ø ÀÎ»ç      
-		System.out.println(h1 + "ÀÇ ÀÎ»ç");       
+		//h1ì€ 2ë²ˆ ì¸ì‚¬      
+		System.out.println(h1 + "ì˜ ì¸ì‚¬");       
 		h1.sayHello();       
 		h1.sayHello();        
-		System.out.println();//´Ü¼øÈ÷ ´ÙÀ½ ¶óÀÎÀ¸·Î º¸³»±â À§ÇØ¼­ È£Ãâ       
-		//h2´Â 3¹ø ÀÎ»ç      
-		System.out.println(h2 + "ÀÇ ÀÎ»ç");    
+		System.out.println();//ë‹¨ìˆœíˆ ë‹¤ìŒ ë¼ì¸ìœ¼ë¡œ ë³´ë‚´ê¸° ìœ„í•´ì„œ í˜¸ì¶œ       
+		//h2ëŠ” 3ë²ˆ ì¸ì‚¬      
+		System.out.println(h2 + "ì˜ ì¸ì‚¬");    
 		h2.sayHello();       
 		h2.sayHello();    
 		h2.sayHello();   
-      //ÀüÃ¼´Â 5¹øÀÎ»ç   
+      //ì „ì²´ëŠ” 5ë²ˆì¸ì‚¬....   
 	}
 }
