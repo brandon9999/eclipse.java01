@@ -2,6 +2,6 @@
 <classpath>
 	<classpathentry kind="src" path=""/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry kind="lib" path="C:/DevHome/AppLibrary/jxl_excel/jxl.jar"/>
+	<classpathentry kind="lib" path="C:/eGovFrameDev-3.7.0-64bit/library/jxl-2.6.12.jar"/>
 	<classpathentry kind="output" path=""/>
 </classpath>
