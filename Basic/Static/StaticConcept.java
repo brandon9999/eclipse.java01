@@ -10,7 +10,7 @@ public class StaticConcept
 	public int b; //일반 멤버 변수 
 	public int c; //일반 멤버 변수   
 	public int d; //일반 멤버 변수    
-	public int e; //일반 멤버 변수      
+	public int e; //일반 멤버 변수  ...    
 	public static void main(String[] args) 
 	{        
 		StaticConcept st1 = new StaticConcept(); //객체 생성
